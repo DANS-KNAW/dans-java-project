@@ -27,7 +27,7 @@
     </parent>
 
     <artifactId>dans-java-project</artifactId>
-    <version>2.1.7-SNAPSHOT</version>
+    <version>3.0.0</version>
     <name>DANS Java Project</name>
     <description>
         A bare bones Java-based project.
@@ -35,7 +35,7 @@
     <packaging>pom</packaging>
     <scm>
         <developerConnection>scm:git:https://github.com/DANS-KNAW/${project.artifactId}</developerConnection>
-        <tag>HEAD</tag>
+        <tag>v3.0.0</tag>
     </scm>
     <repositories>
         <repository>
