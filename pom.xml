@@ -22,12 +22,12 @@
     <parent>
         <groupId>nl.knaw.dans.shared</groupId>
         <artifactId>dans-mvn-lib-defaults</artifactId>
-        <version>3.1.0</version>
+        <version>4.0.0</version>
         <relativePath>../dans-mvn-lib-defaults</relativePath>
     </parent>
 
     <artifactId>dans-java-project</artifactId>
-    <version>3.1.1-SNAPSHOT</version>
+    <version>4.0.0</version>
     <name>DANS Java Project</name>
     <description>
         A bare bones Java-based project.
@@ -61,6 +61,13 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-site-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <configuration>
+                    <skip>true</skip>
+                </configuration>
             </plugin>
         </plugins>
     </build>
